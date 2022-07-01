@@ -1,0 +1,854 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    height: 700px;
+}
+.back-img{
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+.header-home{
+    background-image: url('./background-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 89%;
+}
+.com-name-head{
+    margin-left: 3%;
+    margin-top: 30px;
+}
+.com-name{
+    font-size: 40px;
+    font-weight: lighter;
+    color: #fff;
+}
+.head-btn-cont1{
+    height: 20px;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top: 35px;
+    padding-left: 250px;
+}
+.btn-con-1{
+    border: none;
+    background: none;
+    margin-left: 10px;
+    color: rgb(41, 18, 18);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-con-1:hover{
+    color: orange;
+}
+.head-btn-cont2{
+    height: 20px;
+    width: 50%;
+    margin-left: 47%;
+    position: absolute;
+    top: 60px;
+}
+.btn-con-2{
+    border: none;
+    background: none;
+    margin-left: 10px;
+    color: rgb(41, 18, 18);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-con-2:hover{
+    color: orange;
+}
+.sec1{
+    background: rgb(243, 239, 239);
+    height: 800px;
+    position: relative;
+    width: 100%;
+}
+.sec1-img{
+    height: 580px;
+    position: absolute;
+    left: 53%;
+    top: 10%;
+}
+.sec1-home{
+    height: 580px;
+    width: 38%;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    padding: 40px;
+}
+.head-sec1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(115, 45, 180);
+}
+.para-sec1{
+    margin-top: 50px;
+    font-size: 18px;
+    color: rgb(143, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.para2-sec1{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(143, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+}
+.para3-sec1{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(143, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.sec1-btn{
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 120px;
+}
+.sec1-btn:hover{
+     color: orange;
+}
+
+.sec2{
+    position: relative;
+    height: 800px;
+    width: white;
+}
+.sec2-home{
+    position: absolute;
+    left: 8%;
+    width: 50%;
+    top: 2%;
+}
+.head-sec2{
+     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(115, 45, 180);
+    margin: 30px;
+}
+.para-sec2{
+    margin: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(167, 164, 164);
+}
+.sec2-sec1{
+    position: absolute;
+    left: 70%;
+    width: 300px;
+    margin-top: 120px;
+}
+.key-img{
+    height: 50px;
+    width: 50px;
+}
+.sec2-sec1-head{
+   font-size: 23px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 200;
+   color: rgb(115, 45, 180); 
+   position: absolute;
+   left: 50px;
+   top: 15px;   
+}
+.sec2-sec2{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+.sec2-sec2-head{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);   
+    position: absolute;
+    left: 50px;
+    top: 0px; 
+ }
+.sec2-sec3{
+    position: absolute;
+    left: 40%;
+    top: 38%;
+}
+.sec2-sec3-head{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);
+    position: absolute;
+    left: 50px;
+    top: 0px;     
+ }
+.sec2-sec4{
+    position: absolute;
+    left: 70%;
+    top: 38%;
+}
+.sec2-sec4-head{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);    
+    position: absolute;
+    left: 50px;
+    top: 0px; 
+ }
+.sec2-sec5{
+    position: absolute;
+    left: 70%;
+    top: 68%;
+}
+.sec2-sec5-head{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);    
+    position: absolute;
+    left: 50px;
+    top: 0px; 
+ }
+.sec2-sec6{
+    position: absolute;
+    left: 40%;
+    top: 68%;
+}
+.sec2-sec6-head{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);    
+    position: absolute;
+    left: 50px;
+    top: 0px; 
+ }
+.sec2-sec7{
+    position: absolute;
+    left: 10%;
+    top: 68%;
+}
+.sec2-sec7-head{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);  
+    position: absolute;
+    left: 50px;
+    top: 0px; 
+   
+ }
+
+ .sec3{
+     height: 500px;
+     background-image: url("./sec3img.png");
+     position: relative;
+ }
+ .sec3-home{
+     position: absolute;
+     top: 8%;
+ }
+ .sec3-head{
+     color: #fff;
+     font-size: 35px;
+     /* font-family: Arial, Helvetica, sans-serif; */
+     font-weight: 500;
+     margin-left: 10%;
+ }
+.sec3-head2{
+    color: #fff;
+    font-size: 35px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 500;
+    margin-left: 10%;
+}
+.para-sec3{
+    width: 55%;
+    margin-left: 10%;
+    color: rgb(51, 50, 50);
+    line-height: 1.5;
+}
+
+.sec4{
+    height: 600px;
+    position: relative;
+}
+.sec4-home{
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    height: 300px;
+    width: 500px;
+}
+.head-sec4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);    
+}
+.para-sec4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(167, 164, 164);
+    margin-top: 40px;
+}
+.sec4-sec1{
+    border: 1px solid black;
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    top: 300px;
+    background: rgb(47, 1, 68);
+    padding: 50px;
+}
+.sec4-sec1-head{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.sec4-sec1-btn{
+    height: 20px;
+    width: 150px;
+    margin-top: 60px;
+    background: none;
+    border: none;
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+}
+.sec4-sec1-btn:hover{
+    background: #fff;
+    color: orange;
+}
+.sec4-sec2{
+    border: 1px solid black;
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    top: 300px;
+    background: rgb(76, 6, 122);
+    padding: 50px;
+}
+.sec4-sec2-head{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.sec4-sec2-btn{
+    height: 20px;
+    width: 150px;
+    margin-top: 60px;
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.sec4-sec2-btn:hover{
+    background: #fff;
+    color: orange;
+}
+.sec4-sec3{
+    border: 1px solid black;
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    left: 60%;
+    top: 300px;
+    background: rgb(109, 3, 151);
+    opacity: 0.5;
+    padding: 50px;
+}
+.sec4-sec3-head{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.sec4-sec3-btn{
+    height: 20px;
+    width: 150px;
+    margin-top: 60px;
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #fff;
+}
+.sec4-sec3-btn:hover{
+    background: #fff;
+    color: orange;
+}
+.h2-sec4{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(167, 164, 164);
+    margin-top: 40px;
+    width: 30%;
+    position: absolute;
+    left: 55%;
+    top: 23%;
+    border-bottom: 2px solid orange;
+}
+.sec5{
+    position: relative;
+    height: 500px;
+}
+.sec5-home{
+    position: absolute;
+    top: 5%;
+    width: 500px;
+    left: 9%;
+}
+.head-sec5{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);    
+}
+.para-sec5{
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 85%;
+    color: rgb(116, 111, 111);
+}
+.sec5-btn{
+    margin-top: 80px;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(116, 111, 111);
+    background: none;
+    border: none;
+    border-radius: 20px;
+}
+.sec5-btn:hover{
+    color: rgb(115, 45, 180);
+    
+}
+.sec5-sec1{
+    border-bottom: 1px solid rgb(151, 150, 150);
+    border-right: 1px solid rgb(150, 148, 148);
+    height: 170px;
+    width: 250px;
+    margin-left: 50%;
+    position: absolute;
+    top: 5%;
+    padding: 10px;
+}
+.sec5-sec1-head{
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: 100;
+    color: rgb(76, 2, 145);
+}
+.sec5-sec1-text{
+    color: rgb(109, 3, 151);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border-bottom: 1px solid orange;
+}
+.para-sec5-sec1{
+    color: rgb(143, 139, 139);
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.sec5-sec2{
+    border-bottom: 1px solid rgb(153, 151, 151);
+    border-left: 1px solid rgb(150, 148, 148);
+    height: 170px;
+    width: 250px;
+    margin-left: 67.3%;
+    margin-top: 1.7%;
+    position: absolute;
+    padding: 20px;
+}
+.sec5-sec2-head{
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: 100;
+    color: rgb(76, 2, 145);
+}
+.sec5-sec2-text{
+    color: rgb(109, 3, 151);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border-bottom: 1px solid orange;
+}
+.para-sec5-sec2{
+    color: rgb(143, 139, 139);
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.sec5-sec3{
+    border-top: 1px solid black;
+    border-right: 1px solid rgb(150, 148, 148);
+    height: 170px;
+    width: 250px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 13.5%;
+    padding: 20px;
+}
+.sec5-sec3-head{
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: 100;
+    color: rgb(76, 2, 145);
+}
+.sec5-sec3-text{
+    color: rgb(109, 3, 151);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border-bottom: 1px solid orange;
+}
+.para-sec5-sec3{
+    color: rgb(143, 139, 139);
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.sec5-sec4{
+    border-left: 1px solid rgb(151, 148, 148);
+    border-top: 1px solid rgb(150, 148, 148);
+    height: 170px;
+    width: 250px;
+    position: absolute;
+    margin-left: 67.3%;
+    margin-top: 13.5%;
+    padding: 20px;
+}
+.sec5-sec4-head{
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: 100;
+    color: rgb(76, 2, 145);
+}
+.sec5-sec4-text{
+    color: rgb(93, 2, 129);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border-bottom: 1px solid orange;
+}
+.para-sec5-sec4{
+    color: rgb(143, 139, 139);
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.sec6{
+    height: 800px;
+    position: relative;
+}
+.sec6-sec1{
+    width: 43%;
+    position: absolute;
+    left: 8%;
+    height: 700px;
+}
+.head-sec6-sec1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);   
+}
+.sec6-sec1-btn{
+    height: 20px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: rgb(160, 158, 158); 
+    margin-left: 80%;
+    position: absolute;
+    top: 10px;
+}
+.sub-sec1{
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    top: 100px;
+}
+.sub-sec1-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec1-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec2{
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+.sub-sec2-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec2-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sub-sec3{
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+}
+.sub-sec3-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec3-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sub-sec4{
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.sub-sec4-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec4-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sec6-sec2{
+    position: absolute;
+    left: 53%;
+}
+.head-sec6-sec2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);   
+}
+.sec6-sec2-btn{
+    height: 20px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: rgb(160, 158, 158); 
+    margin-left: 80%;
+    position: absolute;
+    top: 10px;
+}
+.sub-sec5{
+    position: absolute;
+    top: 150px;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    width: 500px;
+}
+.sub-sec5-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec5-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-left: 10px;
+}
+.sub-sec6{
+    position: absolute;
+    top: 250px;
+    border-bottom: 1px solid rgb(150, 148, 148);
+    width: 500px;
+}
+.sub-sec6-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec6-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-left: 10px;
+}
+.sub-sec7{
+    position: absolute;
+    top: 340px;
+    border-bottom: 1px solid rgb(150, 148, 148);
+    width: 500px;
+}
+.sub-sec7-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec7-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-left: 10px;
+}
+.sub-sec8{
+    position: absolute;
+    top:430px;
+    border-bottom: 1px solid rgb(160, 158, 158);
+    width: 500px;
+}
+.sub-sec8-head{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sub-sec5-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-left: 10px;
+}
+
+.sec7{
+    height: 500px;
+}
+.head-sec7{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(115, 45, 180);  
+    margin-left: 8%; 
+}
+.para-sec7{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(150, 148, 148);
+    margin-left: 8%;
+    margin-top: 40px;
+}
+.sec6img{
+    height: 200px;
+    width: 200px;
+}
+
+.sec8{
+    height: 500px;
+}
+.sec8 img{
+    height: 300px;
+    width: 1000px;
+    margin-left: 15%;
+}
+.sec7-img{
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+}
+
+.footer{
+    position: relative;
+    height: 400px;
+    background: rgb(228, 225, 225);
+}
+.footer-home{
+    position: absolute;
+    left: 60%;
+    top: 140px;
+    line-height: 1.8;
+    width: 30%;
+}
+.head-text1{
+    font-size: 15px;
+}
+.head-text2{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.footer-home1{
+    position: absolute;
+    left: 45%;
+    top: 150px;
+}
